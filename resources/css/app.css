@@ -1,0 +1,63 @@
+#statusFilter {
+    width: 200px;
+}
+
+.dataTables_filter {
+    float: right;
+    text-align: right;
+}
+
+#loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* Adds a semi-transparent dark background */
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner-grow {
+    width: 3rem;
+    height: 3rem;
+}
+
+.pagination {
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.paginate_button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.paginate_button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.paginate_button.current {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.paginate_button.disabled {
+    background-color: #f1f1f1;
+    border-color: #dcdcdc;
+    cursor: not-allowed;
+}
+
+.paginate_button:focus {
+    outline: none;
+}
